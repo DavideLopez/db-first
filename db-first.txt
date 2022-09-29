@@ -1,0 +1,19 @@
+db-first
+
+colonne:
+
+id:               SMALLINT         AUTO_INCREMENT, UNIQUE,NOT_NULL
+casa:             VARCHAR(20)      NOT_NULL
+modello:          VARCHAR(20)      NOT_NULL
+anno:             YEAR             NULLABLE
+colore            VARCHAR(10)      NOT_NULL
+alimentazione:    VARCHAR(10)      NOT_NULL
+cilindrata:       SMALLINT         NOT_NULL
+km_percorsi:      MEDIUMINT        NOT_NULL
+descrizione:      TEXT             NOT_NULL
+colore:           VARCHAR          NOT_NULL
+prezzo:           MEDIUMINT        NOT_NULL
+peso:             SMALLINT         NULLABLE
+optionals:        TEXT             NULLABLE
+precedenti_proprietari:  TINYINT   NULLABLE
+condizioni:       VARCHAR(20)      NOT_NULL
